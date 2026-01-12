@@ -1,2 +1,5 @@
-<p>todo-list works!</p>
-{{task.id}} | {{task.title}} | {{task.date}}
+<div>
+    <input [(ngModel)]="taskTitle" placeholder="Task Description">
+    <input [(ngModel)]="taskDate" type="date" placeholder="Task Date">
+    <button>Add Task</button>
+</div>
